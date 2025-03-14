@@ -5,6 +5,9 @@ import { LayoutPanelTop } from 'lucide-react';
 import { Cpu } from 'lucide-react';
 import { CircleCheckBig } from 'lucide-react';
 
+// Components
+import Slider from '../components/Slider'
+
 const Home = () => {
   return (
     <>
@@ -59,6 +62,9 @@ const Home = () => {
       <section>
         <div className='max-w-[1250px] px-5 mx-auto py-[60px]'>
           <h2 className='font-bold text-4xl text-center text-white'>Get custom crafted website for your unique business.</h2>
+        </div>
+        <div className='px-[40px] mx-auto'>
+          <Slider />
         </div>
       </section>
     </>

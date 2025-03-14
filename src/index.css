@@ -3,3 +3,7 @@
 html {
     background-color: #282424;
 }
+
+.slick-prev:before, .slick-next:before {
+    color: #FFBC00 !important;
+}
