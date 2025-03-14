@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className='max-w-[1440px] mx-auto font-["Poppins"]'>
+      <div className='font-["Poppins"]'>
         <Nav />
         <Home />
       </div>
