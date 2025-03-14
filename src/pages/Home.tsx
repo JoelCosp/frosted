@@ -4,6 +4,8 @@ import React from 'react'
 import { LayoutPanelTop } from 'lucide-react';
 import { Cpu } from 'lucide-react';
 import { CircleCheckBig } from 'lucide-react';
+import { Check } from 'lucide-react';
+import { Plus } from 'lucide-react';
 
 // Components
 import Slider from '../components/Slider'
@@ -59,12 +61,49 @@ const Home = () => {
         </div>
       </section>
       
-      <section>
-        <div className='max-w-[1250px] px-5 mx-auto py-[60px]'>
+      <section className='py-[60px]'>
+        <div className='max-w-[1250px] px-5 mx-auto pb-[60px]'>
           <h2 className='font-bold text-4xl text-center text-white'>Get custom crafted website for your unique business.</h2>
         </div>
         <div className='px-[40px] mx-auto'>
           <Slider />
+        </div>
+      </section>
+
+      <section>
+        <div className='max-w-[1250px] px-5 mx-auto grid grid-cols-1 sm:grid-cols-3 py-[60px]'>
+          <div>
+            <h2>Join the worry-free website club.</h2>
+            <p>Add a dedicated website expert to your team who will design, build, and manage your website.</p>
+            <button>Let's talk</button>
+          </div>
+
+          <div>
+            <p>SiteClub Membership</p>
+            <h2>$480/mo.</h2>
+            <ul>
+              <li><Check color='#FFBC00'/>7 page website</li>
+              <li><Check color='#FFBC00'/>7 page website</li>
+              <li><Check color='#FFBC00'/>7 page website</li>
+              <li><Check color='#FFBC00'/>7 page website</li>
+              <li><Check color='#FFBC00'/>7 page website</li>
+              <li><Check color='#FFBC00'/>7 page website</li>
+              <li><Check color='#FFBC00'/>7 page website</li>
+            </ul>
+            <button className='bg-[#FFBC00]'>Join the club</button>
+          </div>
+
+          <div>
+            <p>Optional Add-ons</p>
+            <ul>
+              <li><Plus color='#FFBC00'/>Additional pages</li>
+              <li><Plus color='#FFBC00'/>Online course</li>
+              <li><Plus color='#FFBC00'/>E-commerce</li>
+              <li><Plus color='#FFBC00'/>On-site SEO</li>
+              <li><Plus color='#FFBC00'/>Email setup</li>
+            </ul>
+            <button className='bg-[#FFBC00]'>Join the club</button>
+          </div>
         </div>
       </section>
     </>
