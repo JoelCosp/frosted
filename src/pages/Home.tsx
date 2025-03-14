@@ -25,6 +25,7 @@ const Home = () => {
             <img className='rounded-t-2xl' src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/38a608a4-d3ae-4726-a7c7-1cc9c270204c/screencapture-surepass-2025-01-16-13_32_04.jpg?format=2500w" alt="" />
           </div>
       </section>
+      
       <section className='bg-white rounded-2xl'>
         <div className='max-w-[1250px] px-5 mx-auto py-[60px]'>
           <h2 className='font-bold text-4xl text-center'>Building a new website can feel like working a second job.</h2>
@@ -32,6 +33,32 @@ const Home = () => {
           <h2 className='font-bold text-4xl text-center'>What if you could make <span className='bg-[#FFBC00] px-2 rounded-2xl'>one decision</span> to simplify everything?</h2>
           <p>When you join SiteClub, you get a <span className='font-bold'>dedicated expert</span> to design, build, & evolve your website as you grow.</p>
           <img src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/88a39682-7ad1-4510-a37f-4ba23862544b/happy-woman-illustration-illustration.png?format=750w" alt="" />
+          <div>
+            <h2 className='font-bold text-4xl text-center'>When you join SiteClub, everything just works.</h2>
+            <div className='grid grid-cols-1 sm:grid-cols-3'>
+              <div className='flex justify-center items-center py-5 flex-col'>
+                <LayoutPanelTop size={50} color='#FFBC00' />
+                <h3 className='font-bold text-2xl mt-[30px]'>Killer Design</h3>
+                <p className='text-center mt-5 text-xl'>We combine professional design with strategic layouts and clear messaging to meet your business goals.</p>
+              </div>
+              <div className='flex justify-center items-center py-5 flex-col'>
+                <LayoutPanelTop size={50} color='#FFBC00' />
+                <h3 className='font-bold text-2xl mt-[30px]'>Killer Design</h3>
+                <p className='text-center mt-5 text-xl'>We combine professional design with strategic layouts and clear messaging to meet your business goals.</p>
+              </div>
+              <div className='flex justify-center items-center py-5 flex-col'>
+                <LayoutPanelTop size={50} color='#FFBC00' />
+                <h3 className='font-bold text-2xl mt-[30px]'>Killer Design</h3>
+                <p className='text-center mt-5 text-xl'>We combine professional design with strategic layouts and clear messaging to meet your business goals.</p>
+              </div>
+            </div>
+        </div>
+        </div>
+      </section>
+      
+      <section>
+        <div className='max-w-[1250px] px-5 mx-auto py-[60px]'>
+          <h2 className='font-bold text-4xl text-center text-white'>Get custom crafted website for your unique business.</h2>
         </div>
       </section>
     </>
