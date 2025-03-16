@@ -22,13 +22,6 @@ const Home = () => {
               <li className='py-4 flex gap-2 items-center text-2xl font-bold'><CircleCheckBig size={32} color='#FFBC00' /> Strategic updates</li>
             </ul>
           </div>
-
-          <div className='hidden sm:grid sm:grid-cols-4 sm:gap-5'>
-            <img className='rounded-t-2xl' src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/38a608a4-d3ae-4726-a7c7-1cc9c270204c/screencapture-surepass-2025-01-16-13_32_04.jpg?format=2500w" alt="" />
-            <img className='rounded-t-2xl' src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/38a608a4-d3ae-4726-a7c7-1cc9c270204c/screencapture-surepass-2025-01-16-13_32_04.jpg?format=2500w" alt="" />
-            <img className='rounded-t-2xl' src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/38a608a4-d3ae-4726-a7c7-1cc9c270204c/screencapture-surepass-2025-01-16-13_32_04.jpg?format=2500w" alt="" />
-            <img className='rounded-t-2xl' src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/38a608a4-d3ae-4726-a7c7-1cc9c270204c/screencapture-surepass-2025-01-16-13_32_04.jpg?format=2500w" alt="" />
-          </div>
       </section>
       
       <section className='bg-white rounded-2xl'>
