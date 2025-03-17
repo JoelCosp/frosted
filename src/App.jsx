@@ -7,6 +7,7 @@ import Home from './pages/Home'
 
 // Components
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className='font-["Poppins"]'>
         <Nav />
         <Home />
+        <Footer />
       </div>
     </>
   )

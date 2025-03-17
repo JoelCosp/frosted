@@ -84,38 +84,37 @@ const Home = () => {
       </section>
 
       <section>
-        <div className='max-w-[1250px] px-5 mx-auto grid grid-cols-1 sm:grid-cols-3 py-[60px]'>
-          <div>
-            <h2>Join the worry-free website club.</h2>
+        <div className='max-w-[1250px] px-5 mx-auto grid grid-cols-1 gap-10 sm:grid-cols-3 py-[60px] text-white'>
+          <div className='flex flex-col justify-center'>
+            <h2 className='text-4xl font-bold pb-5'>Join the worry-free website club.</h2>
             <p>Add a dedicated website expert to your team who will design, build, and manage your website.</p>
-            <button>Let's talk</button>
+            <button className='px-5 py-4 mt-[70px] border-1 border-[#999999] rounded-full text-[#999999] hover:bg-[#999999] hover:text-[#282424] hover:cursor-pointer'>Let's talk</button>
           </div>
 
-          <div>
-            <p>SiteClub Membership</p>
-            <h2>$480/mo.</h2>
+          <div className='flex flex-col justify-center'>
+            <p className='text-[#FFBC00] font-bold text-center pb-3'>SiteClub Membership</p>
+            <h2 className='text-4xl font-bold text-center'>$480/mo.</h2>
             <ul>
-              <li><Check color='#FFBC00'/>7 page website</li>
-              <li><Check color='#FFBC00'/>7 page website</li>
-              <li><Check color='#FFBC00'/>7 page website</li>
-              <li><Check color='#FFBC00'/>7 page website</li>
-              <li><Check color='#FFBC00'/>7 page website</li>
-              <li><Check color='#FFBC00'/>7 page website</li>
-              <li><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
+              <li className='flex py-3 justify-center items-center gap-2'><Check color='#FFBC00'/>7 page website</li>
             </ul>
-            <button className='bg-[#FFBC00]'>Join the club</button>
+            <button className='bg-[#FFBC00] px-5 py-4 mt-[70px] rounded-full text-black font-bold hover:cursor-pointer'>Join the club</button>
           </div>
 
-          <div>
-            <p>Optional Add-ons</p>
+          <div className='flex flex-col'>
             <ul>
-              <li><Plus color='#FFBC00'/>Additional pages</li>
-              <li><Plus color='#FFBC00'/>Online course</li>
-              <li><Plus color='#FFBC00'/>E-commerce</li>
-              <li><Plus color='#FFBC00'/>On-site SEO</li>
-              <li><Plus color='#FFBC00'/>Email setup</li>
+              <li className='flex py-3 items-center justify-center text-center text-[#999999] text-3xl font-bold'>Optional Add-ons</li>
+              <li className='flex py-3 items-center justify-center gap-2'><Plus color='#FFBC00'/>Additional pages</li>
+              <li className='flex py-3 items-center justify-center gap-2'><Plus color='#FFBC00'/>Online course</li>
+              <li className='flex py-3 items-center justify-center gap-2'><Plus color='#FFBC00'/>E-commerce</li>
+              <li className='flex py-3 items-center justify-center gap-2'><Plus color='#FFBC00'/>On-site SEO</li>
+              <li className='flex py-3 items-center justify-center gap-2'><Plus color='#FFBC00'/>Email setup</li>
             </ul>
-            <button className='bg-[#FFBC00]'>Join the club</button>
           </div>
         </div>
       </section>
