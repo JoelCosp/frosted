@@ -41,39 +41,39 @@ export default function SimpleSlider() {
       };
   return (
     <Slider {...settings}>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
-      <div className="px-5 text-white font-bold text-center">
-        <img className="mb-[40px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
-        <h4 className="text-2xl mb-3">Fortunato Management</h4>
+      <div className="px-5 text-white text-center">
+        <img className="mb-[20px] rounded-2xl" src="https://images.squarespace-cdn.com/content/v1/6519fa1e206aa63ad494ce69/7aa8e1c9-58b7-4009-bb64-7e29cb897909/Screenshot+2025-01-16+at+1.28.46%E2%80%AFPM.jpg?format=1000w" alt="" />
+        <h4 className="text-xl mb-3 font-bold">Fortunato Management</h4>
         <p>Property Management Company</p>
       </div>
     </Slider>

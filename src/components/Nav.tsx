@@ -1,6 +1,5 @@
 import React from 'react'
 import { Menu } from 'lucide-react';
-import siteclub from '../assets/siteclub.svg';
 
 
 const Nav = () => {
@@ -13,9 +12,8 @@ const Nav = () => {
             <li className='ml-2'><button className='bg-[#FFBC00] px-5 py-4 rounded-full'>Join the Club</button></li>
         </ul>
     </nav>
-    <nav className='max-w-[1250px] px-5 pt-5 mx-auto'>
+    <nav className='max-w-[1250px] px-5 pt-5 mx-auto sm:hidden'>
       <Menu color='white' size={40}/>
-      <img src={siteclub} alt="" />
     </nav>
     </>
   )

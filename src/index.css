@@ -4,6 +4,6 @@ html {
     background-color: #282424;
 }
 
-.slick-prev:before, .slick-next:before {
+.slick-prev:before, .slick-next:before, .slick-dots li button:before {
     color: #FFBC00 !important;
 }
